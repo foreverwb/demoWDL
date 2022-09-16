@@ -1,0 +1,6 @@
+{
+  "SecondStage.DISK": "100",
+  "SecondStage.NUM_THREAD": "10",
+  "SecondStage.MEMORY": "50",
+  "SecondStage.docker": "registry.miracle.ac.cn/broad/denovocnn:latest"
+}

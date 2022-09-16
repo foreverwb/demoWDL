@@ -1,0 +1,11 @@
+version: 1.2
+workflows:
+  - subclass: WDL
+    primaryDescriptorPath: /script.wdl
+    testParameterFiles:
+      - /script.json
+  
+  - subclass: WDL
+    primaryDescriptorPath: /type.wdl
+    testParameterFiles:
+      - /type.json
